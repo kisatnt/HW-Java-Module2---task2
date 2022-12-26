@@ -9,7 +9,8 @@ public class Main {
         } else {
             amountFinal = balanceAcc + topUp + cashBack; //считаем сумму с бонусом
         }
-        System.out.println(amountFinal);
+        System.out.println(" Количество бонусов = " + cashBack);
+        System.out.println(" Общая сумма с бонусом = " + amountFinal);
 
     }
 }
